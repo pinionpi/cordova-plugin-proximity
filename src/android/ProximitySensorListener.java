@@ -230,8 +230,8 @@ public class ProximitySensorListener extends CordovaPlugin implements SensorEven
 
         int proximity;
 
-        Log.d("ProximitySensorListener", "XXX onSensorChanged sensor length -> " + event.values.length);
-        Log.d("ProximitySensorListener", "XXX onSensorChanged [0]-> " + event.values[0] + " [1]-> " + event.values[1] + " [2]-> " + event.values[2]);
+        //Log.d("ProximitySensorListener", "XXX onSensorChanged sensor length -> " + event.values.length);
+        //Log.d("ProximitySensorListener", "XXX onSensorChanged [0]-> " + event.values[0] + " [1]-> " + event.values[1] + " [2]-> " + event.values[2]);
 
         if (event.values[0] == 0) {
             proximity = ProximitySensorListener.NEAR;
