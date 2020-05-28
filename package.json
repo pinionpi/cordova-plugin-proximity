@@ -1,0 +1,30 @@
+{
+  "name": "org.awokenwell.proximity",
+  "version": "0.2.1",
+  "description": "Cordova Proximity Sensor Plugin",
+  "cordova": {
+    "id": "org.awokenwell.proximity",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinionpi/cordova-plugin-proximity.git"
+  },
+  "keywords": [
+    "cordova",
+    "proximity",
+    "sensor",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "author": "",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/pinionpi/cordova-plugin-proximity/issues"
+  },
+  "homepage": "https://github.com/pinionpi/cordova-plugin-proximity#readme"
+}
